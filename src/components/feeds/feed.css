@@ -1,0 +1,69 @@
+.feed {
+  flex: 5;
+}
+
+.feedWrapper {
+  padding: 20px;
+}
+
+.share {
+  width: 100%;
+  height: 170px;
+  border-radius: 10px;
+  background-color: blue;
+}
+
+.sharedWrapper {
+  padding: 10px;
+}
+
+.sharetop {
+  display: flex;
+  align-items: center;
+}
+
+.shareprofileimg {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.shareInput {
+  border: none;
+  width: 80%;
+}
+
+.shareInput:focus {
+  outline: none;
+}
+
+.shareBottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.shareoptions {
+  display: flex;
+  margin-left: 20px;
+}
+.shareoption {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.shareIcon {
+  font-size: 18px;
+  margin-right: 3px;
+}
+
+.sharebtn {
+  border: none;
+  padding: 7px;
+  border-radius: 5px;
+  font-weight: 500;
+  margin-right: 20px;
+}
