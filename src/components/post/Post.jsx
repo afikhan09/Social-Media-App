@@ -20,7 +20,17 @@ const Post = () => {
           <div className="caption">love for all hatred for none </div>
           <img className="feedimg" src="/assets/post/1.jpeg" alt="" />
         </div>
-        <div className="postBottom"></div>
+        <div className="postBottom">
+          <div className="bottomleft">
+            <img className="likeIcon" src="assets/like.png" alt="" />
+            <img className="likeIcon" src="assets/heart.png" alt="" />
+
+            <span className="postLikeCounter">61 people liked it</span>
+          </div>
+          <div className="postbottomright">
+            <div className="postcommenttext"> Comment_rightIcon</div>
+          </div>
+        </div>
       </div>
     </div>
   );
