@@ -1,3 +1,39 @@
 .rightbar {
   flex: 4;
 }
+
+.gifImg {
+  height: 32px;
+  width: 32px;
+  margin-right: 10px;
+}
+
+.birthdayContainer {
+  display: flex;
+  align-items: center;
+}
+
+.rightbarwrapper {
+  padding: 20px 20px 0 0;
+}
+
+.rightbarAd {
+  margin: 25px 0;
+  border-radius: 25px;
+  height: 270px;
+  width: 100%;
+}
+
+.onlinefriendsPic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+.onlinefriends {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+}
