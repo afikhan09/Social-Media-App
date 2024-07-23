@@ -1,6 +1,9 @@
 import "./post.css";
+import { Users } from "../../Dummydata";
 
-const Post = () => {
+const Post = ({ post }) => {
+  // const users = Users.filter((u) => u.id === 1);
+  // console.log(users[0].username);
   return (
     <div className="post">
       <div className="postwrapper">
@@ -8,27 +11,29 @@ const Post = () => {
           <div className="postTopLeft">
             <img
               className="postProfileImg"
-              src="/assets/person/1.jpeg"
+              src={Users.filter((u) => u.id === post.userId)[0].profilePicture}
               alt=""
             />
-            <span className="postusername">safak </span>
-            <span className="PostDate"> 5 mins ago</span>
+            <span className="postusername">
+              {Users.filter((u) => u.id === post.userId)[0].username}
+            </span>
+            <span className="PostDate"> {post.date}</span>
           </div>
           <div className="posttopright">3DotIcon</div>
         </div>
         <div className="postcenter">
-          <div className="caption">love for all hatred for none </div>
-          <img className="feedimg" src="/assets/post/1.jpeg" alt="" />
+          <div className="caption">{post?.desc}</div>
+          <img className="feedimg" src={post.photo} alt="" />
         </div>
         <div className="postBottom">
           <div className="bottomleft">
             <img className="likeIcon" src="assets/like.png" alt="" />
             <img className="likeIcon" src="assets/heart.png" alt="" />
 
-            <span className="postLikeCounter">61 people liked it</span>
+            <span className="postLikeCounter">{post.like}people liked it</span>
           </div>
           <div className="postbottomright">
-            <div className="postcommenttext"> Comment_rightIcon</div>
+            <div className="postcommenttext"> {post.comment} Comment</div>
           </div>
         </div>
       </div>
