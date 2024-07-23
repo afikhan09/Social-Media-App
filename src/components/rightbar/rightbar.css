@@ -37,3 +37,43 @@
   display: flex;
   align-items: center;
 }
+
+.rightBarFriendList {
+  padding: 0;
+  margin: 0; /*dont forget to do margin padding 0 for UL  list */
+  list-style: none;
+}
+
+.rightBarFriend {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.rightBarProfileImgContainer {
+  margin-right: 10px;
+
+  position: relative;
+}
+
+.rightbarProfileImg {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.rightBarOnline {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: green;
+  position: absolute;
+  top: -2px;
+  right: 0;
+  border: 2px solid white;
+}
+
+.rightbarUsername {
+  font-weight: 500;
+}

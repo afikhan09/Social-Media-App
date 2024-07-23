@@ -15,14 +15,105 @@ const Rightbar = () => {
 
         <h4>Online Friends</h4>
 
-        <div className="onlinefriends">
+        <ul className="rightBarFriendList">
+          <li className="rightBarFriend">
+            <div className="rightBarProfileImgContainer">
+              <img
+                className="rightbarProfileImg"
+                src="assets/person/3.jpeg"
+                alt=""
+              />
+              <span className="rightBarOnline"></span>
+            </div>
+            <div className="rightbarUsername">John Carter</div>
+          </li>
+          <li className="rightBarFriend">
+            <div className="rightBarProfileImgContainer">
+              <img
+                className="rightbarProfileImg"
+                src="assets/person/3.jpeg"
+                alt=""
+              />
+              <span className="rightBarOnline"></span>
+            </div>
+            <div className="rightbarUsername">John Carter</div>
+          </li>
+          <li className="rightBarFriend">
+            <div className="rightBarProfileImgContainer">
+              <img
+                className="rightbarProfileImg"
+                src="assets/person/3.jpeg"
+                alt=""
+              />
+              <span className="rightBarOnline"></span>
+            </div>
+            <div className="rightbarUsername">John Carter</div>
+          </li>
+          <li className="rightBarFriend">
+            <div className="rightBarProfileImgContainer">
+              <img
+                className="rightbarProfileImg"
+                src="assets/person/3.jpeg"
+                alt=""
+              />
+              <span className="rightBarOnline"></span>
+            </div>
+            <div className="rightbarUsername">John Carter</div>
+          </li>
+          <li className="rightBarFriend">
+            <div className="rightBarProfileImgContainer">
+              <img
+                className="rightbarProfileImg"
+                src="assets/person/3.jpeg"
+                alt=""
+              />
+              <span className="rightBarOnline"></span>
+            </div>
+            <div className="rightbarUsername">John Carter</div>
+          </li>
+          <li className="rightBarFriend">
+            <div className="rightBarProfileImgContainer">
+              <img
+                className="rightbarProfileImg"
+                src="assets/person/3.jpeg"
+                alt=""
+              />
+              <span className="rightBarOnline"></span>
+            </div>
+            <div className="rightbarUsername">John Carter</div>
+          </li>
+          <li className="rightBarFriend">
+            <div className="rightBarProfileImgContainer">
+              <img
+                className="rightbarProfileImg"
+                src="assets/person/3.jpeg"
+                alt=""
+              />
+              <span className="rightBarOnline"></span>
+            </div>
+            <div className="rightbarUsername">John Carter</div>
+          </li>
+          <li className="rightBarFriend">
+            <div className="rightBarProfileImgContainer">
+              <img
+                className="rightbarProfileImg"
+                src="assets/person/3.jpeg"
+                alt=""
+              />
+              <span className="rightBarOnline"></span>
+            </div>
+            <div className="rightbarUsername">John Carter</div>
+          </li>
+        </ul>
+
+        {/* <div className="onlinefriends">
           <img
             className="onlinefriendsPic"
             src="/assets/person/1.jpeg"
             alt=""
           />
           <span>Safak kocago</span>
-        </div>
+        </div> */}
       </div>
     </div>
   );
